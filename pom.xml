@@ -30,7 +30,7 @@
   </parent>
 
   <artifactId>maven-help-plugin</artifactId>
-  <version>3.3.1-SNAPSHOT</version>
+  <version>4.0.0-M1-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
 
   <name>Apache Maven Help Plugin</name>
@@ -70,7 +70,7 @@
   <properties>
     <javaVersion>8</javaVersion>
     <mavenVersion>3.2.5</mavenVersion>
-    <mavenPluginToolsVersion>3.6.4</mavenPluginToolsVersion>
+    <mavenPluginToolsVersion>3.7.1</mavenPluginToolsVersion>
     <project.build.outputTimestamp>2022-08-14T12:24:27Z</project.build.outputTimestamp>
   </properties>
 
@@ -139,12 +139,12 @@
     <dependency>
       <groupId>org.apache.maven.reporting</groupId>
       <artifactId>maven-reporting-api</artifactId>
-      <version>3.1.1</version>
+      <version>4.0.0-M4</version>
     </dependency>
     <dependency>
       <groupId>org.apache.maven.reporting</groupId>
       <artifactId>maven-reporting-exec</artifactId>
-      <version>1.6.0</version>
+      <version>2.0.0-M4</version>
       <exclusions>
         <exclusion>
           <groupId>org.apache.maven</groupId>
@@ -171,7 +171,7 @@
     <dependency>
       <groupId>org.codehaus.plexus</groupId>
       <artifactId>plexus-utils</artifactId>
-      <version>3.4.2</version>
+      <version>3.5.0</version>
     </dependency>
 
     <!-- misc -->
@@ -188,7 +188,7 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>3.8.1</version> <!-- commons-lang3 > 3.8.1 requires at least Java 8 -->
+      <version>3.12.0</version>
     </dependency>
 
     <!-- test -->
